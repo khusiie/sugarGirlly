@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$ugar Token - Sweet Revolution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .token-gradient {
+            background: linear-gradient(45deg, #FFC0CB, #FF69B4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .story-section {
+            position: relative;
+            overflow: hidden;
+        }
+        .story-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 50;
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+        .story-content {
+            position: relative;
+            z-index: 10;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .floating-image {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-pink-50 to-pink-100">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-5 flex justify-center">
+            <div class="flex items-center space-x-4">
+                <img src="logo.png" alt="$ugar Token Logo" class="h-16 w-16 rounded-full">
+                <div class="text-5xl font-bold token-gradient">
+                    Sugar Girl
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Storytelling -->
+    <div class="story-section container mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+        <div style="background-image: url('hero-bg.jpg');" class="story-background"></div>
+        <div class="story-content space-y-6">
+            <h1 class="text-5xl header-font font-bold token-gradient">
+               Sugar Girl: The Sweet Revolution Begins
+            </h1>
+            <p class="text-xl text-gray-600 leading-relaxed">
+                Meet Sugar Girl, the visionary behind $ugar Token—a bold pioneer who turned her dream of a connected, story-driven cryptocurrency into reality. 
+                Sugar Girl’s journey is a tale of resilience, creativity, and transformation. She envisioned a world where digital assets transcend numbers and become instruments of storytelling and innovation.
+            </p>
+            <p class="text-xl text-gray-600 leading-relaxed">
+                Through $ugar Token, Sugar Girl brings communities together, empowers creators, and sparks a sweet revolution that’s more than just digital—it's deeply human. 
+            </p>
+            <div class="flex space-x-4">
+                <a href="#story" class="bg-pink-500 text-gray-600 px-6 py-3 rounded-full hover:bg-pink-600 transition duration-300">
+                    Begin the Journey
+                </a>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <img src="/image/1.png" alt="Sugar Girl - $ugar Token Hero" class="w-96 h-96 object-cover rounded-full shadow-2xl floating-image" />
+        </div>
+    </div>
+    
+    
+
+    <!-- Token Journey Story with Enhanced Storytelling -->
+    <div class="container mx-auto px-4 py-16">
+        <h2 class="text-4xl text-center font-bold token-gradient mb-12">
+            The $ugar Token Odyssey
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Concept Stage -->
+            <div class="story-section bg-white p-6 rounded-lg shadow-md relative overflow-hidden">
+                <div style="background-image: url('/image/1.png');" class="story-background"></div>
+                <div class="story-content">
+                    <div class="bg-black inline-block mx-auto p-4 rounded-lg bg-opacity-50 text-white">
+                    <div class="text-4xl font-bold  mb-4">01</div>
+                    <h3 class="text-xl font-semibold  mb-4">Concept Genesis</h3>
+                </div>
+
+                    <div class="flex justify-center mb-4 w-64 h-64">
+                        <!-- <img 
+                            src="/image/6.png" 
+                            alt="Global Impact" 
+                            class="w-64 h-64 object-cover rounded-full floating-image"
+                        /> -->
+                    </div>
+                    <p class="text-white">
+                        Where imagination meets blockchain. A spark of an idea that could revolutionize how we think about digital assets.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Technology Stage -->
+            <div class="story-section bg-white p-6 rounded-lg shadow-md relative overflow-hidden">
+                <div style="background-image: url('/image/3.png');" class="story-background"></div>
+                <div class="story-content">
+                    
+                    <div class="bg-black inline-block mx-auto p-4 rounded-lg bg-opacity-50 text-white">
+                        <div class="text-4xl font-bold  mb-4">02</div>
+                        <h3 class="text-xl font-semibold  mb-4">Technological Alchemy</h3>
+                    </div>
+                    <div class="flex justify-center mb-4 w-64 h-64">
+                        <!-- <img 
+                            src="/image/6.png" 
+                            alt="Global Impact" 
+                            class="w-64 h-64 object-cover rounded-full floating-image"
+                        /> -->
+                    </div>
+                    <p class="text-white">
+                        Transforming complex blockchain technology into a sweet, accessible experience for everyone.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Community Stage -->
+            <div class="story-section bg-white p-6 rounded-lg shadow-md relative overflow-hidden">
+                <div style="background-image: url('/image/4.png');" class="story-background "></div>
+                <div class="story-content">
+                    <div class="bg-black inline-block mx-auto p-4 rounded-lg bg-opacity-50 text-white">
+                    <div class="text-4xl font-bold  mb-4">03</div>
+                    <h3 class="text-xl font-semibold  mb-4">Community Fusion</h3>
+                    </div>
+                    <div class="flex justify-center mb-4 w-64 h-64">
+                        <!-- <img 
+                            src="/image/6.png" 
+                            alt="Global Impact" 
+                            class="w-64 h-64 object-cover rounded-full floating-image"
+                        /> -->
+                    </div>
+                    <p class="text-white">
+                        Building a vibrant, passionate community that's as dynamic and sweet as $ugar Token itself.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Expansion Stage -->
+            <div class="story-section bg-white p-6 rounded-lg shadow-md relative overflow-hidden">
+                <div style="background-image: url('/image/5.png');" class="story-background"></div>
+                <div class="story-content">
+                    <div class="bg-black inline-block mx-auto p-4 rounded-lg bg-opacity-50 text-white">
+                    <div class="text-4xl font-bold  mb-4">04</div>
+                    <h3 class="text-xl font-semibold  mb-4">Global Sweet Expansion</h3>
+                    </div>
+                    <div class="flex justify-center mb-4 w-64 h-64">
+                        <!-- <img 
+                            src="/image/6.png" 
+                            alt="Global Impact" 
+                            class="w-64 h-64 object-cover rounded-full floating-image"
+                        /> -->
+                    </div>
+                    <p class="text-white">
+                        Breaking boundaries, connecting continents, and spreading the $ugar revolution worldwide.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Global Impact Stage -->
+            <div class="story-section bg-white p-6 rounded-lg shadow-md relative overflow-hidden">
+                <div style="background-image: url('/image/6.png');" class="story-background"></div>
+                <div class="story-content">
+                    <div class="bg-black inline-block mx-auto p-4 rounded-lg bg-opacity-50 text-white">
+                    <div class="text-4xl font-bold  mb-4">05</div>
+                    <h3 class="text-xl font-semibold  mb-4">Transformative Impact</h3>
+                    </div>
+                    <div class="flex justify-center mb-4 w-64 h-64">
+                        <!-- <img 
+                            src="/image/6.png" 
+                            alt="Global Impact" 
+                            class="w-64 h-64 object-cover rounded-full floating-image"
+                        /> -->
+                    </div>
+                    <p class="text-white">
+                        More than a token—a movement that reshapes the future of digital finance and community empowerment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rest of the original content remains the same -->
+    
+    <!-- Tokenomics Section -->
+    <div id="tokenomics" class="bg-white py-16 story-section">
+        <div style="background-image: url('/image/1.png');" class="story-background"></div>
+        <div class="container mx-auto px-4 text-center story-content">
+            <div class="bg-black inline-block mx-auto p-4 rounded-lg">
+                <h2 class="text-4xl font-bold token-gradient  inline-block">
+                    $uper Tokenomics Unveiled
+                </h2>
+            </div>
+            <div class="flex justify-center mb-4 w-64 h-64">
+                <!-- <img 
+                    src="/image/6.png" 
+                    alt="Global Impact" 
+                    class="w-64 h-64 object-cover rounded-full floating-image"
+                /> -->
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-pink-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-pink-700 mb-4">Total Supply</h3>
+                    <p class="text-4xl font-bold text-gray-800">1,000,000,000</p>
+                    <p class="text-gray-600 mt-2">$uper Tokens</p>
+                </div>
+                <div class="bg-pink-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-pink-700 mb-4">Transaction Fee</h3>
+                    <p class="text-4xl font-bold text-gray-800">0%</p>
+                    <p class="text-gray-600 mt-2">Zero Buy & Sell Taxes</p>
+                </div>
+                <div class="bg-pink-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-pink-700 mb-4">Token Mascot</h3>
+                    <p class="text-3xl font-bold text-gray-800">Sugar Girl</p>
+                    <p class="text-gray-600 mt-2">Fun-Loving Explorer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Community Section -->
+    <div id="join" class="container mx-auto px-4 py-16">
+        <div class="bg-white rounded-lg shadow-lg p-12 text-center">
+            <h2 class="text-4xl font-bold token-gradient mb-6">
+                Join the $ugar Community
+            </h2>
+            <p class="text-xl text-white max-w-2xl mx-auto mb-10">
+                Connect with fellow $ugar enthusiasts, stay updated on the latest developments, and be part of our sweet revolution.
+            </p>
+            <div class="flex justify-center space-x-8 mb-8">
+                <a href="https://x.com" target="_blank" class="text-pink-700 hover:text-pink-900 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                    </svg>
+                </a>
+                <a href="https://t.me" target="_blank" class="text-pink-700 hover:text-pink-900 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="inline-block bg-pink-100 px-10 py-4 rounded-full">
+                <h3 class="text-2xl text-pink-700 font-semibold">
+                    JOIN THE SWEET COMMUNITY
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-pink-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center">
+                <div class="text-center">
+                    <h3 class="text-xl font-bold">$ugar Token</h3>
+                    <p class="text-pink-200">Sweetening the Crypto Experience</p>
+                </div>
+               
+            </div>
+            <div class="mt-6 pt-6 border-t border-pink-700 text-center">
+                <p>&copy; 2024 $ugar Token. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
